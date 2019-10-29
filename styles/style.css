@@ -331,28 +331,23 @@ button.read-more {
 
 /* LINK CALLOUT SECTION STYLES */
 .links {
-  background-color: #3d0369;
-  margin: 0 auto; }
+  background-color: #3d0369; }
 
 .links p {
   margin: 10px auto;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 30px; }
+  font-size: 3rem; }
 
 .links ul {
-  width: 60%;
-  padding: 100px 0;
-  margin: 0 auto; }
+  width: 100%;
+  padding: 100px 0; }
 
 /* width calc is based off the padding of the 2nd child */
-.links li:nth-child(2) {
-  padding: 0 10%; }
-
 .links li {
-  text-align: center;
+  width: calc(100% / 3);
   float: left;
-  margin: 0 auto; }
+  text-align: center; }
 
 /* INSTAGRAM STYLES */
 .instagram {

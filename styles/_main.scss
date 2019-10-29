@@ -71,34 +71,31 @@ button.read-more {
 
 .links {
     background-color: $primary-color;
-    margin:0 auto;
 }
 
 .links p {
     margin:10px auto;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 3rem;
 }
 
 .links ul {
     // width: calc(89% - 100px);
-    width: 60%;
+    width: 100%;
     padding: 100px 0;
-    margin:0 auto
 }
 /* width calc is based off the padding of the 2nd child */
 
-.links li:nth-child(2) {
-    padding: 0 10%;
-}
+// .links li:nth-child(2) {
+//     padding: 0 10%;
+// }
 
 
 .links li {
-    text-align: center;
+    width: calc(100% / 3);
     float: left;
-    margin: 0 auto;
-
+    text-align: center;
 }
 
 /* INSTAGRAM STYLES */
