@@ -178,6 +178,9 @@ header {
   margin: 0 auto;
   height: 95vh; }
 
+.fas.fa-bars {
+  display: none; }
+
 h1 {
   font-family: "Iceberg", cursive;
   font-size: 8rem;
@@ -256,7 +259,13 @@ i {
     font-size: 2.5rem; }
   .main,
   .social-media {
-    display: none; } }
+    display: none; }
+  .fas.fa-bars {
+    display: block;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    font-size: 2.5rem; } }
 
 @media (max-width: 580px) {
   h1 {

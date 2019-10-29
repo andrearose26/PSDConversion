@@ -11,6 +11,10 @@ header {
     height:95vh;
 }
 
+.fas.fa-bars {
+    display: none;
+}
+
 h1 {
     font-family: $header-font;
     font-size: 8rem;
@@ -112,16 +116,12 @@ i {
 
     .title {
         position: absolute;
-        // top:0;
-        // right:0;
-        // left: 0;
         bottom:25%;
 
     }
     h1 {
         font-size:6rem;
         margin-top:0;
-        // padding-top: 
     }
 
     h3 {
@@ -131,6 +131,14 @@ i {
     .main,
     .social-media {
         display: none;
+    }
+    
+    .fas.fa-bars {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        font-size: 2.5rem;
     }
 }
 
