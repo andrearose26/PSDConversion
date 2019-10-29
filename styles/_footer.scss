@@ -1,0 +1,64 @@
+/* FOOTER STYLES*/
+
+/* Footer Top Styles */
+
+footer h2 {
+    font-family: $header-font;
+    text-transform: uppercase;
+}
+
+.footer-top {
+    background-color: $primary-color;
+    padding: 25px 0 45px 0;
+    padding-bottom: 45px;
+
+    nav {
+        padding-bottom: 35px;
+        text-align: center;
+    }
+
+    li {
+        display: inline;
+        padding: 25px;
+    }
+
+    nav a{
+        display: inline-block;
+        text-decoration: none;
+        color:$text-color;
+    }
+
+} 
+
+
+.contact {
+    width: 50%;
+    float: left;
+}
+
+.stay-updated {
+    width: 50%;
+    float: left;
+
+    input[type=email] {
+        width: 60%;
+    }
+
+    input[type=submit]{
+        width: 35%;
+    }
+}
+
+
+/* Footer Bottom Styles */
+
+.footer-bottom{
+    background-color: $secondary-color;
+}
+
+.footer-bottom p {
+    margin: 0;
+    text-align: center;
+    padding: 15px 0;
+
+}

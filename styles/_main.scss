@@ -1,0 +1,261 @@
+/* ======== MAIN STYLES ========== */
+
+/* - Ghost space between image and header */
+
+.article {
+    width: 100%;
+}
+
+.article h2 {
+    font-family: $header-font;
+    font-size: 5.2rem;
+    text-transform: uppercase;
+    line-height: 41px;
+}
+
+.text.left-align {
+    width: 50%;
+    float: left;
+}
+
+.text.right-align {
+    width: 50%;
+    float:right;
+}
+
+.article img { 
+    width: 50%;
+    float:left;
+    display:block;
+}
+
+
+.article:nth-of-type(1),
+.article:nth-of-type(2){
+    background-color: $primary-color;
+}
+
+.article:nth-of-type(3){
+    background-color: $secondary-color;
+}
+
+
+.text-only{
+    padding: 20px;
+}
+
+.text.performing-lineup,
+.text.new-experiences {
+    padding: 75px 50px;
+}
+
+.text.get-tickets{
+    margin: 150px 0;
+}
+/* This has to match the height of the image */
+
+.get-tickets img{
+    padding: 150px 150px 150px 0;
+}
+/* /This has to match the height of the text of this div SASS? */
+
+button.read-more {
+    font-family: $header-font;
+    font-size: 2.5rem;
+    text-align: center;
+    line-height: 29px;
+    background-color: $accent-color;
+    padding: 5px;
+
+}
+
+/* LINK CALLOUT SECTION STYLES */
+
+.links {
+    background-color: $primary-color;
+}
+
+.links p {
+    margin:10px auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.links ul {
+    width: calc(89% - 100px);
+    padding: 100px;
+    margin: 0 auto;
+}
+/* width calc is based off the padding of the 2nd child */
+
+.links li:nth-child(2) {
+    padding: 0 50px;
+}
+
+
+.links li {
+    text-align: center;
+    float: left;
+    margin: 0 auto;
+
+}
+
+/* INSTAGRAM STYLES */
+
+.instagram {
+    background-color: $secondary-color;
+}
+
+.instagram h2 {
+    font-family: $header-font;
+    font-size: 5.2rem;
+    text-transform: uppercase;
+    line-height: 41px;
+    padding: 52px 0;
+    text-align: center;
+}
+
+.insta-images {
+    padding-bottom: 75px;
+    width: 100%;
+}
+
+.insta-images img {
+    width: calc((100% / 3) - 40px);
+    float: left;
+}
+
+.insta-images img:nth-child(2){
+    margin: 0 60px;
+}
+
+// MEDIA QUERIES
+
+@media(max-width:1200px) {
+    .text.performing-lineup,
+    .text.new-experiences {
+        padding: 35px;
+    }
+}
+
+@media(max-width:1080px) {
+    .article h2 {
+        font-size: 4.3rem;
+    }
+
+    .performing-lineup p,
+    .new-experiences p {
+       font-size: 1.6rem;
+    }
+
+    button.read-more {
+        font-size: 1.4rem;
+    }
+
+    .text.get-tickets{
+        margin: 100px 0;
+    }   
+
+    .get-tickets img{
+        padding: 100px 100px 100px 0;
+    }
+}
+
+@media(max-width:970px) {
+    .article h2 {
+        font-size: 3.4rem;
+    }
+
+    .performing-lineup p,
+    .new-experiences p {
+       line-height: 2.1rem;
+    }
+
+    .text.get-tickets{
+        margin: 70px 0;
+    }   
+
+    .get-tickets img{
+        padding: 70px 70px 70px 0;
+    }
+
+}
+
+@media(max-width:815px) {
+
+    .text.left-align,
+    .text.right-align {
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+        padding: 50px;
+    }
+
+    .article img {
+        width: 100%;
+        float: none;
+    }
+
+    .article h2 {
+        font-size: 5.2rem;
+    }
+
+    .performing-lineup p,
+    .new-experiences p {
+       font-size: 2rem;
+       line-height: 2.9rem;
+    }
+
+    button.read-more {
+        font-size: 2.5rem;
+    }
+
+    .text.get-tickets{
+        padding: 35px;
+    }   
+
+    .get-tickets img{
+        padding: 25px;
+    }
+}
+
+@media(max-width:550px) {
+
+    .text.left-align,
+    .text.right-align {
+        padding: 30px;
+    }
+
+}
+
+@media (max-width:450px){
+    
+    .article h2 {
+        font-size: 4.3rem;
+    }
+
+    .performing-lineup p,
+    .new-experiences p {
+       font-size: 1.6rem;
+    }
+
+    button.read-more {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width:390px){
+    
+    .article h2 {
+        font-size: 3.4rem;
+    }
+
+    .performing-lineup p,
+    .new-experiences p {
+       line-height: 2.1rem;
+    }
+}
+
+
+

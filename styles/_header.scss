@@ -1,0 +1,174 @@
+header {
+    background-image: url(../assets/header-image.jpg);
+    height: 95vh;
+    position: relative;
+}
+
+
+.header-wrapper {
+    width: 35%;
+    margin: 0 auto;
+    height:95vh;
+}
+
+h1 {
+    font-family: $header-font;
+    font-size: 8rem;
+    line-height: 8rem;
+    text-align: center;
+    margin: 30px 0;
+    padding: 12px;
+}
+
+h3 {
+    font-family: $body-font;
+    font-size: 3.5rem;
+    margin: 0 auto;
+    text-transform: lowercase;
+    background-color: $accent-color;
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+    width: 100%;
+}
+
+
+// Nav Styles
+
+nav.main {
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    margin: 0 auto;
+}
+
+.main ul{
+    width: 325px;
+}
+
+.main a {
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: $text-color;
+}
+
+i {
+    color: $text-color;
+}
+
+// Social Media
+
+.social-media {
+    width: 45px;
+}
+
+
+.social-media ul{
+    position: absolute;
+    top:35%;
+    right:1%;
+    width: 50px;
+    float: left;
+    
+    li {
+        padding: 10px;
+    }
+
+}
+
+// MEDIA QUERIES
+
+@media (max-width: 845px){
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    .main a {
+        font-size: 1.4rem;
+    }
+
+    nav.main {
+        margin-bottom: 65px;
+    }
+}
+
+@media (max-width: 760px){
+    .header-wrapper {
+        position: relative;
+    }
+
+    .title {
+        position: absolute;
+        // top:0;
+        // right:0;
+        // left: 0;
+        bottom:25%;
+
+    }
+    h1 {
+        font-size:6rem;
+        margin-top:0;
+        // padding-top: 
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    .main,
+    .social-media {
+        display: none;
+    }
+}
+
+@media (max-width: 580px){
+
+    // .header-wrapper {
+    //     width: 45%;
+    // }
+    h1 {
+        font-size:5rem;
+    }
+
+    h3 {
+        padding: 8px;
+        font-size: 2rem;
+    }
+    
+    .header-wrapper {
+        width: 50%;
+    }
+
+    .title {
+        width: 100%;
+    }
+}
+
+@media (max-width: 410px){
+    h1 {
+        font-size:4.5rem;
+        margin-top:0;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media (max-width: 375px){
+
+}
