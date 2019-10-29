@@ -1,7 +1,5 @@
 /* ======== MAIN STYLES ========== */
 
-/* - Ghost space between image and header */
-
 .article {
     width: 100%;
 }
@@ -133,6 +131,8 @@ button.read-more {
 // MEDIA QUERIES
 
 @media(max-width:1200px) {
+
+    //Articles
     .text.performing-lineup,
     .text.new-experiences {
         padding: 35px;
@@ -140,6 +140,8 @@ button.read-more {
 }
 
 @media(max-width:1080px) {
+
+    //Articles
     .article h2 {
         font-size: 4.3rem;
     }
@@ -163,6 +165,8 @@ button.read-more {
 }
 
 @media(max-width:970px) {
+
+    //Articles
     .article h2 {
         font-size: 3.4rem;
     }
@@ -180,15 +184,25 @@ button.read-more {
         padding: 70px 70px 70px 0;
     }
 
+    .get-tickets p {
+        line-height: 2.5rem;
+    }
+
 }
 
 @media(max-width:815px) {
 
+    //General
+    .wrapper {
+        width: 90%;
+    }
+
+    //Articles
     .text.left-align,
     .text.right-align {
-        width: 80%;
+        width: 100%;
         float: none;
-        margin: 0 auto;
+        margin: 0;
         padding: 50px;
     }
 
@@ -212,16 +226,18 @@ button.read-more {
     }
 
     .text.get-tickets{
-        padding: 35px;
+        padding: 75px 0;
     }   
 
     .get-tickets img{
-        padding: 25px;
+        padding: 0px;
+        padding-bottom: 50px;
     }
 }
 
 @media(max-width:550px) {
 
+    //Articles
     .text.left-align,
     .text.right-align {
         padding: 30px;
@@ -231,6 +247,7 @@ button.read-more {
 
 @media (max-width:450px){
     
+    //Articles
     .article h2 {
         font-size: 4.3rem;
     }
@@ -246,7 +263,8 @@ button.read-more {
 }
 
 @media (max-width:390px){
-    
+
+    //Articles
     .article h2 {
         font-size: 3.4rem;
     }

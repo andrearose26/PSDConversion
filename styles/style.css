@@ -277,7 +277,6 @@ i {
     font-size: 1.4rem; } }
 
 /* ======== MAIN STYLES ========== */
-/* - Ghost space between image and header */
 .article {
   width: 100%; }
 
@@ -404,14 +403,18 @@ button.read-more {
   .text.get-tickets {
     margin: 70px 0; }
   .get-tickets img {
-    padding: 70px 70px 70px 0; } }
+    padding: 70px 70px 70px 0; }
+  .get-tickets p {
+    line-height: 2.5rem; } }
 
 @media (max-width: 815px) {
+  .wrapper {
+    width: 90%; }
   .text.left-align,
   .text.right-align {
-    width: 80%;
+    width: 100%;
     float: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 50px; }
   .article img {
     width: 100%;
@@ -425,9 +428,10 @@ button.read-more {
   button.read-more {
     font-size: 2.5rem; }
   .text.get-tickets {
-    padding: 35px; }
+    padding: 75px 0; }
   .get-tickets img {
-    padding: 25px; } }
+    padding: 0px;
+    padding-bottom: 50px; } }
 
 @media (max-width: 550px) {
   .text.left-align,
