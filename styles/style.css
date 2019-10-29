@@ -331,7 +331,8 @@ button.read-more {
 
 /* LINK CALLOUT SECTION STYLES */
 .links {
-  background-color: #3d0369; }
+  background-color: #3d0369;
+  margin: 0 auto; }
 
 .links p {
   margin: 10px auto;
@@ -340,13 +341,13 @@ button.read-more {
   font-size: 30px; }
 
 .links ul {
-  width: calc(89% - 100px);
-  padding: 100px;
+  width: 60%;
+  padding: 100px 0;
   margin: 0 auto; }
 
 /* width calc is based off the padding of the 2nd child */
 .links li:nth-child(2) {
-  padding: 0 50px; }
+  padding: 0 10%; }
 
 .links li {
   text-align: center;

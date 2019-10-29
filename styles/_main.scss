@@ -71,6 +71,7 @@ button.read-more {
 
 .links {
     background-color: $primary-color;
+    margin:0 auto;
 }
 
 .links p {
@@ -81,14 +82,15 @@ button.read-more {
 }
 
 .links ul {
-    width: calc(89% - 100px);
-    padding: 100px;
-    margin: 0 auto;
+    // width: calc(89% - 100px);
+    width: 60%;
+    padding: 100px 0;
+    margin:0 auto
 }
 /* width calc is based off the padding of the 2nd child */
 
 .links li:nth-child(2) {
-    padding: 0 50px;
+    padding: 0 10%;
 }
 
 
