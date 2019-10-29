@@ -515,3 +515,44 @@ footer h2 {
   margin: 0;
   text-align: center;
   padding: 15px 0; }
+
+@media (max-width: 915px) {
+  .footer-top li {
+    font-size: 1.8rem; }
+  .footer-top h2 {
+    font-size: 2.5rem; }
+  .footer-top p {
+    font-size: 1.8rem; } }
+
+@media (max-width: 760px) {
+  .footer-top li {
+    font-size: 1.8rem; }
+  .footer-top h2 {
+    font-size: 2.5rem; }
+  .footer-top p {
+    font-size: 1.8rem; }
+  .contact,
+  .stay-updated {
+    width: 100%;
+    float: none;
+    text-align: center;
+    line-height: 2rem; }
+  .stay-updated input[type=email],
+  .stay-updated input[type=submit] {
+    width: 70%;
+    display: inline-block; }
+  .stay-updated {
+    margin-top: 55px; }
+  .footer-bottom p {
+    font-size: 1.8rem; } }
+
+@media (max-width: 505px) {
+  .footer-top li {
+    padding: 15px; }
+  .footer-bottom p {
+    font-size: 1.4rem; } }
+
+@media (max-width: 505px) {
+  .footer-top li {
+    padding: 10px;
+    font-size: 1.5rem; } }
