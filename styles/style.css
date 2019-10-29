@@ -343,7 +343,6 @@ button.read-more {
   width: 100%;
   padding: 100px 0; }
 
-/* width calc is based off the padding of the 2nd child */
 .links li {
   width: calc(100% / 3);
   float: left;
@@ -427,7 +426,16 @@ button.read-more {
     padding: 75px 0; }
   .get-tickets img {
     padding: 0px;
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; }
+  .links li {
+    width: 100%;
+    float: none;
+    text-align: center;
+    padding: 35px 0; }
+  .links ul {
+    padding: 15px 0; }
+  .links i {
+    font-size: 3.5rem; } }
 
 @media (max-width: 550px) {
   .text.left-align,

@@ -81,15 +81,9 @@ button.read-more {
 }
 
 .links ul {
-    // width: calc(89% - 100px);
     width: 100%;
     padding: 100px 0;
 }
-/* width calc is based off the padding of the 2nd child */
-
-// .links li:nth-child(2) {
-//     padding: 0 10%;
-// }
 
 
 .links li {
@@ -232,7 +226,25 @@ button.read-more {
         padding: 0px;
         padding-bottom: 50px;
     }
+
+    //Links section
+
+    .links li {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 35px 0;
+    }
+
+    .links ul {
+        padding: 15px 0;
+    }
+
+    .links i {
+        font-size: 3.5rem;
+    }
 }
+
 
 @media(max-width:550px) {
 
