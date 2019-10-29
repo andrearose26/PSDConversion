@@ -400,7 +400,12 @@ button.read-more {
   .get-tickets img {
     padding: 70px 70px 70px 0; }
   .get-tickets p {
-    line-height: 2.5rem; } }
+    line-height: 2.5rem; }
+  .insta-images img:nth-child(2) {
+    margin: 0 35px; }
+  .insta-images img {
+    width: calc((100% / 3) - 25px);
+    float: left; } }
 
 @media (max-width: 815px) {
   .wrapper {
@@ -437,13 +442,23 @@ button.read-more {
   .links i {
     font-size: 3.5rem; } }
 
+@media (max-width: 700px) {
+  .insta-images img:nth-child(2) {
+    display: none; }
+  .insta-images img:nth-child(1) {
+    margin-right: 20px; }
+  .insta-images img {
+    width: calc(50% - 10px);
+    float: left; } }
+
 @media (max-width: 550px) {
   .text.left-align,
   .text.right-align {
     padding: 30px; } }
 
 @media (max-width: 450px) {
-  .article h2 {
+  .article h2,
+  .instagram h2 {
     font-size: 4.3rem; }
   .performing-lineup p,
   .new-experiences p {
@@ -452,7 +467,8 @@ button.read-more {
     font-size: 1.4rem; } }
 
 @media (max-width: 390px) {
-  .article h2 {
+  .article h2,
+  .instagram h2 {
     font-size: 3.5rem; }
   .performing-lineup p,
   .new-experiences p {
