@@ -176,7 +176,7 @@ header {
 .header-wrapper {
   width: 35%;
   margin: 0 auto;
-  height: 95vh; }
+  height: 80vh; }
 
 .fas.fa-bars {
   display: none; }
@@ -463,7 +463,7 @@ button.read-more {
 @media (max-width: 550px) {
   .text.left-align,
   .text.right-align {
-    padding: 30px; } }
+    padding: 50px 50px 70px 50px; } }
 
 @media (max-width: 450px) {
   .article h2,
@@ -472,8 +472,14 @@ button.read-more {
   .performing-lineup p,
   .new-experiences p {
     font-size: 1.6rem; }
+  .article.text {
+    position: relative; }
   button.read-more {
-    font-size: 1.4rem; } }
+    font-size: 1.6rem;
+    display: inline-block;
+    width: 100px;
+    position: absolute;
+    left: 37%; } }
 
 @media (max-width: 390px) {
   .article h2,

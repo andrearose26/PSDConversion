@@ -8,7 +8,7 @@ header {
 .header-wrapper {
     width: 35%;
     margin: 0 auto;
-    height:95vh;
+    height:80vh;
 }
 
 .fas.fa-bars {
@@ -144,9 +144,6 @@ i {
 
 @media (max-width: 580px){
 
-    // .header-wrapper {
-    //     width: 45%;
-    // }
     h1 {
         font-size:5rem;
     }
@@ -166,6 +163,7 @@ i {
 }
 
 @media (max-width: 410px){
+
     h1 {
         font-size:4.5rem;
         margin-top:0;
@@ -174,9 +172,5 @@ i {
     h3 {
         font-size: 1.4rem;
     }
-
-}
-
-@media (max-width: 375px){
 
 }

@@ -278,7 +278,8 @@ button.read-more {
     //Articles
     .text.left-align,
     .text.right-align {
-        padding: 30px;
+        padding: 50px 50px 70px 50px;
+        
     }
 
 }
@@ -296,8 +297,16 @@ button.read-more {
        font-size: 1.6rem;
     }
 
+    .article.text {
+        position: relative;
+    }
+
     button.read-more {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
+        display: inline-block;
+        width: 100px;
+        position: absolute;
+        left: 37%;
     }
 }
 
