@@ -11,18 +11,21 @@
     line-height: 41px;
 }
 
-.text.left-align {
+.text.left-align,
+.text.right-align,
+.article img {
     width: 50%;
+}
+
+.text.left-align {
     float: left;
 }
 
 .text.right-align {
-    width: 50%;
     float:right;
 }
 
 .article img { 
-    width: 50%;
     float:left;
     display:block;
 }
@@ -55,7 +58,7 @@
 .get-tickets img{
     padding: 150px 150px 150px 0;
 }
-/* /This has to match the height of the text of this div SASS? */
+/* This has to match the height of the text of this div  */
 
 button.read-more {
     font-family: $header-font;
@@ -120,6 +123,17 @@ button.read-more {
 .insta-images img:nth-child(2){
     margin: 0 60px;
 }
+
+//HOVERS
+
+a:hover,
+.social-media i:hover,
+.links li:hover,
+.footer-top li {
+    color: $accent-color;
+    font-weight: 700;
+}
+
 
 // MEDIA QUERIES
 

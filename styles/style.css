@@ -195,7 +195,6 @@ h3 {
   margin: 0 auto;
   text-transform: lowercase;
   background-color: #9200ff;
-  background-attachment: fixed;
   display: inline-block;
   padding: 12px;
   text-align: center;
@@ -301,16 +300,18 @@ i {
   text-transform: uppercase;
   line-height: 41px; }
 
+.text.left-align,
+.text.right-align,
+.article img {
+  width: 50%; }
+
 .text.left-align {
-  width: 50%;
   float: left; }
 
 .text.right-align {
-  width: 50%;
   float: right; }
 
 .article img {
-  width: 50%;
   float: left;
   display: block; }
 
@@ -335,7 +336,7 @@ i {
 .get-tickets img {
   padding: 150px 150px 150px 0; }
 
-/* /This has to match the height of the text of this div SASS? */
+/* This has to match the height of the text of this div  */
 button.read-more {
   font-family: "Iceberg", cursive;
   font-size: 2.5rem;
@@ -385,6 +386,13 @@ button.read-more {
 
 .insta-images img:nth-child(2) {
   margin: 0 60px; }
+
+a:hover,
+.social-media i:hover,
+.links li:hover,
+.footer-top li {
+  color: #9200ff;
+  font-weight: 700; }
 
 @media (max-width: 1200px) {
   .text.performing-lineup,
