@@ -174,7 +174,7 @@ header {
   position: relative; }
 
 .header-wrapper {
-  width: 35%;
+  width: 350px;
   margin: 0 auto;
   height: 80vh; }
 
@@ -195,6 +195,7 @@ h3 {
   margin: 0 auto;
   text-transform: lowercase;
   background-color: #9200ff;
+  background-attachment: fixed;
   display: inline-block;
   padding: 12px;
   text-align: center;
@@ -247,11 +248,8 @@ i {
     margin-bottom: 65px; } }
 
 @media (max-width: 760px) {
-  .header-wrapper {
-    position: relative; }
   .title {
-    position: absolute;
-    bottom: 25%; }
+    padding-top: 25%; }
   h1 {
     font-size: 6rem;
     margin-top: 0; }
@@ -284,6 +282,14 @@ i {
     margin-top: 0; }
   h3 {
     font-size: 1.4rem; } }
+
+@media (max-height: 500px) {
+  .title {
+    padding-top: 10%; } }
+
+@media (max-height: 415px) {
+  h1 {
+    line-height: 6rem; } }
 
 /* ======== MAIN STYLES ========== */
 .article {
@@ -518,9 +524,31 @@ footer h2 {
   width: 50%;
   float: left; }
   .stay-updated input[type=email] {
-    width: 60%; }
-  .stay-updated input[type=submit] {
-    width: 35%; }
+    width: 60%;
+    padding: 5px; }
+  .stay-updated button[type=submit] {
+    width: 35%;
+    padding: 5px; }
+
+button.subscribe {
+  font-family: "Iceberg", cursive;
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 29px;
+  background-color: #9200ff;
+  padding: 5px; }
+
+::-webkit-input-placeholder {
+  font-size: 1.6rem; }
+
+:-ms-input-placeholder {
+  font-size: 1.6rem; }
+
+::-ms-input-placeholder {
+  font-size: 1.6rem; }
+
+::placeholder {
+  font-size: 1.6rem; }
 
 /* Footer Bottom Styles */
 .footer-bottom {
